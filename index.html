@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat+Brush|Playfair+Display:400,700|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>Easy task</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-12 col-lg-2 ">
+            <h1><a class="site-logo">easy</a></h1>
+          </div>
+          <div class="site-navigation col col-md-6 col-lg-5">
+  
+            <ul class="list-items">
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">всі</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">одяг</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">взуття</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">кафе/ресторани</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link ">інше &#6662;</a>
+              </li>
+            </ul>
+          </div>
+          <div class="site-search col col-md-4 offset-md-2 col-lg-3 ">
+            <div class="">
+              <a href="#" class=""><svg width="12" height="18" viewBox="0 0 12 18" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.10578 9.58155C8.11608 9.70223 8.10121 9.82372 8.06209 9.93834C8.02298 10.053 7.96049 10.1582 7.87857 10.2474C7.79666 10.3366 7.69711 10.4078 7.58623 10.4566C7.47535 10.5053 7.35556 10.5304 7.23444 10.5304C7.11333 10.5304 6.99354 10.5053 6.88266 10.4566C6.77178 10.4078 6.67223 10.3366 6.59031 10.2474C6.5084 10.1582 6.44591 10.053 6.40679 9.93834C6.36768 9.82372 6.35281 9.70223 6.36311 9.58155C6.38174 9.36329 6.4816 9.15997 6.64295 9.0118C6.8043 8.86364 7.01539 8.78142 7.23444 8.78142C7.4535 8.78142 7.66458 8.86364 7.82593 9.0118C7.98728 9.15997 8.08715 9.36329 8.10578 9.58155ZM11.0398 9.73998C11.2326 10.1752 11.3014 10.6552 11.2388 11.127C11.1762 11.5989 10.9845 12.0443 10.6849 12.4142L7.47208 16.3622C7.22901 16.6575 6.92314 16.895 6.57673 17.0572C6.23032 17.2194 5.8521 17.3024 5.46959 17.3C4.85968 17.2955 4.26954 17.0832 3.79662 16.698L0.970313 14.4104C0.548508 14.0664 0.243487 13.6004 0.0971212 13.0762C-0.0492448 12.552 -0.0297815 11.9953 0.152839 11.4827L2.26306 4.10638C2.27917 4.04556 2.31494 3.99178 2.3648 3.95341C2.41466 3.91503 2.47581 3.89423 2.53872 3.89423C2.60164 3.89423 2.66279 3.91503 2.71265 3.95341C2.7625 3.99178 2.79827 4.04556 2.81438 4.10638L3.16292 5.51953C3.17903 5.58035 3.2148 5.63413 3.26465 5.67251C3.31451 5.71088 3.37566 5.73168 3.43858 5.73168C3.50149 5.73168 3.56264 5.71088 3.6125 5.67251C3.66236 5.63413 3.69813 5.58035 3.71424 5.51953L5.12739 0.285165C5.12739 0.209535 5.15743 0.137002 5.21091 0.083523C5.26439 0.0300441 5.33692 0 5.41255 0C5.48819 0 5.56072 0.0300441 5.6142 0.083523C5.66768 0.137002 5.69772 0.209535 5.69772 0.285165L6.88908 4.8288C6.90705 4.88704 6.9432 4.93799 6.99224 4.97418C7.04128 5.01037 7.10062 5.02989 7.16157 5.02989C7.22252 5.02989 7.28186 5.01037 7.3309 4.97418C7.37994 4.93799 7.41609 4.88704 7.43406 4.8288L8.10578 2.47143C8.12189 2.41061 8.15766 2.35683 8.20752 2.31846C8.25738 2.28009 8.31853 2.25928 8.38144 2.25928C8.44436 2.25928 8.50551 2.28009 8.55537 2.31846C8.60522 2.35683 8.64099 2.41061 8.6571 2.47143L11.0398 9.73998ZM9.56963 10.3737L8.75216 8.5106C8.68232 8.35154 8.57589 8.21123 8.44154 8.1011C8.30719 7.99098 8.14872 7.91416 7.97904 7.8769L5.98922 7.45866C5.91559 7.44931 5.84106 7.44931 5.76743 7.45866C5.6239 7.45813 5.482 7.48906 5.35171 7.54927C5.22143 7.60949 5.10592 7.69753 5.01332 7.80719L1.80046 11.7361C1.63671 11.9499 1.56414 12.2198 1.59856 12.4869C1.63299 12.754 1.77162 12.9967 1.98423 13.162L4.79153 15.4496C4.98241 15.6075 5.22188 15.6948 5.46959 15.6968C5.61418 15.6982 5.75731 15.6677 5.88877 15.6075C6.02022 15.5472 6.13674 15.4587 6.23003 15.3482L9.44289 11.4066C9.55428 11.2639 9.62489 11.0937 9.64721 10.914C9.66953 10.7343 9.64272 10.552 9.56963 10.3864V10.3737Z"
+                    fill="#ADAFAE" />
+                </svg>
+              </a>
+            </div>
+            <div class="">
+              <a href="#" class=""><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.2708 9.08334H9.64542L9.42376 8.86959C10.3738 7.76126 10.8646 6.24917 10.5954 4.64209C10.2233 2.44126 8.38667 0.683757 6.17001 0.41459C2.82126 0.00292364 0.00292364 2.82126 0.41459 6.17001C0.683757 8.38667 2.44126 10.2233 4.64209 10.5954C6.24917 10.8646 7.76126 10.3738 8.86959 9.42376L9.08334 9.64542V10.2708L12.4479 13.6354C12.7725 13.96 13.3029 13.96 13.6275 13.6354C13.9521 13.3108 13.9521 12.7804 13.6275 12.4558L10.2708 9.08334ZM5.52084 9.08334C3.54959 9.08334 1.95834 7.49209 1.95834 5.52084C1.95834 3.54959 3.54959 1.95834 5.52084 1.95834C7.49209 1.95834 9.08334 3.54959 9.08334 5.52084C9.08334 7.49209 7.49209 9.08334 5.52084 9.08334Z"
+                    fill="#ADAFAE" />
+                </svg>
+              </a>
+            </div>
+            <div class="">
+              <button type="button" class="nav-btn">
+                Зареєструватись
+              </button>
+            </div>
+            <div class="">
+              <button type="button" class="nav-btn">
+                Увійти
+              </button>
+            </div>
+           
+  
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <div class="section-with-button">
+            <div class="container">
+              <div class="row">
+                <div class="col col-md-6 col-lg-4">
+                  <button type="button" class="first-section-btn">
+                    21% студентська знижка на одяг BERSHKA
+                  </button>
+                </div>
+                <div class="col col-md-6 col-lg-4">
+                  <button type="button" class="first-section-btn">
+                    100 грн студентська знижка на взуття Plato
+                  </button>
+                </div>
+                <div class="col col-md-12 col-lg-4">
+                  <button type="button" class="first-section-btn">
+                    21% студентська знижка на одяг BERSHKA
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- slider  -->
+        <section class="slider-section slider">
+          <div class="container">
+            <div class="row">
+                <a class="slider-control slider-prev">&#10094;</a>
+                <a class="slider-control slider-next">&#10095;</a>
+                <div class="slider-description">
+                  <div class="text-description">
+                    <h2 class="slides-header">категорія фешн</h2>
+                    <h3 class="slides-header-sale">Special offer up to 30% off</h3>
+                      <p class="slides-paragraph">
+                        Знижки для студентів від більше ніж 500 магазинів!!! Лорем іпсум
+                        долор сіт амет консігула ін люміна
+                      </p>
+                      <div class="button-wraper">
+                        <a href="#" class="slider-section-btn">Зареєструйся і отримай знижки</a>
+                      </div>
+                  </div>
+                </div>
+                <img src="./img/1.jfif" alt="slide1" class="img-slide" width="" height="" />
+                <div class="slider__dots__wraper">
+                  <a href="" class="slider__dots  round"></a>
+                  <a href="" class="slider__dots  round"></a>
+                  <a href="" class="slider__dots  round"></a>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- three steps -->
+        <section class="section-steps">
+          <div class="container">
+            <div class="row">
+              
+              <div class="section-step__items col-12 col-md-6 col-lg-3 p-0">
+                <div class="section-step__photo first-block"></div>
+                <div class="first-block__disc"><p>Make three a <br>easy steps</p></div>
+                <div class="section-step__item__desc">
+                  <p>Start <br> saving</p>
+                  <p>	&#8594;</p>
+                </div>
+              </div>
+
+              <div class="section-step__items col-12 col-md-6 col-lg-3 p-0">
+                <div class="section-step__photo ">
+                  <img src="./img/22.jfif" alt="foto" height="323" width="264">
+               </div>
+               <div class="section-step__numbers">
+                 <p>1</p>
+               </div class="section-step__numbers">
+               <div class="section-step__item__desc">
+                <p>Choose <br> discount</p>
+                <p>	&#8594;</p>
+               </div>
+              </div>
+
+              <div class="section-step__items col-12 col-md-6 col-lg-3 p-0">
+                <div class="section-step__photo">
+                  <img src="./img/33.jfif" alt="foto" height="323" width="264">
+               </div>
+               <div  class="section-step__numbers">
+                <p>2</p>
+              </div>
+               <div class="section-step__item__desc">
+                <p>Sign up now</p>
+                <p>	&#8594;</p>
+          </div>
+              </div>
+
+              <div class="section-step__items col-12 col-md-6 col-lg-3 p-0">
+                <div class="section-step__photo">
+                  <img src="./img/555.jfif" alt="foto" height="323" width="264">
+               </div>
+               <div class="section-step__numbers">
+                <p>3</p>
+              </div>
+               <div class="section-step__item__desc">
+                <p>Enjoy with us!</p>
+          </divclass="section-step__item__desc">
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <!-- service-section -->
+        <section class="service-section">
+          <div class="container">
+            <div class="row">
+            <div class="col-12">
+              <h4 class="service-section__title">Choose your discont </h4>
+            </div>
+            </div>
+          </div>
+        
+        <div class="container">
+          <div class="row  justify-content-between">
+        
+            <div class="service-item__block col-12 col-md-12 col-lg-8 p-0 mb-3">
+        
+              <div class="service-item__large__block">
+                <img src="./img/10.jfif" alt="foto" height="200" width="548">
+              </div>
+              <div class="item-paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable"><img src="./img/zara.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0  mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/9.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">100% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/bershka.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/10.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+            <div class="service-item col-12 col-md-8 col-lg-4 p-0 mb-3">
+        
+              <div class="service-item__small__block">
+                <img src="./img/7.jfif" class="photo" alt="foto" height="110" width="264">
+              </div>
+              <div class="paragraph__wrapper">
+                <h5 class="item-title">30% знижка на весінню колекцію</h5>
+                <p class="item-desc item-desc__margin">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <div class="service-item__button"><a href="#" class="service-item__link">Скористатись знижкою</a></div>
+                <div class="lable__small"><img src="./img/stradivarius.png" alt="zara" width="80"></div>
+              </div>
+        
+            </div>
+        
+        
+          </div>
+        </div>
+        <div class="container">
+          <div class="col-12">
+             <div class="row">
+              <div class=" btn-margin">
+                <a href="#" class="slider-section-btn">Всі знижки</a>
+              </div>
+            </div>
+        </div>
+  </div>
+      </section>
+      <section class="bottom-section">
+        <div class="container">
+          <div class="row">
+            <div class="bottom-section__img col-12">
+              <div class="bottom-section-description">
+                <h3 class="slides-header-sale bottom-section__color">All discounts on your smartphone!</h3>
+                <p class="slides-paragraph bottom-section__color">
+                  Знижки для студентів від більше ніж 500 магазинів!!! Лорем іпсум долор сіт амет консігула ін люміна
+                </p>
+                <div class="last-button">
+                  <a href="#" class=" btn-shadow slider-section-btn">Зареєструйся і отримай знижки</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <div class="site-navigation col-12 col-md-8 col-lg-5">
+            <ul class="list-items-footer">
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">всі</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">одяг</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">взуття</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link">кафе/ресторани</a>
+              </li>
+              <li class="main-menu-items">
+                <a href="" class="main-menu-link ">інше &#6662;</a>
+              </li>
+            </ul>
+          </div>
+          <div class="icon-bar col-12 col-md-2 col-lg-2 ">
+            <a href="">
+              <svg class="socials__icon">
+                <use href="./img/icons/sprite.svg#facebook"></use>
+              </svg></a>
+            <a href=""><svg class="socials__icon">
+                <use href="img/icons/sprite.svg#twitter"></use>
+              </svg></a>
+            <a href=""><svg class="socials__icon">
+                <use href="img/icons/sprite.svg#instagram"></use>
+              </svg></a>
+          </div>
+          <div class="col-12 col-md-12 col-lg-12 ">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="last-block col-12 col-md-12 col-lg-6">
+                  <p>Copyright &copy; Easy. All rights reserved.</p>
+                </div>
+                <div class="last-block col-12 col-md-12 col-lg-6">
+                  <ul class=" menu-item__last-block">
+                    <li class="list-item__last-block">Підтримка</li>
+                    <li class="list-item__last-block">Загальні положення та умови</li>
+                    <li class="list-item__last-block">Політика конфіденційності</li>
+                    <li class="list-item__last-block">Cookie</li>
+                  </ul>
+    
+    
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
