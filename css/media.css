@@ -9,6 +9,20 @@
   .first-section-btn {
     min-width: 240px;
   }
+  .section-step__items {
+    display: inline-block;
+    text-align: center;
+  }
+  .last-block p {
+    display: none;
+  }
+  .first-block__media {
+    display: none;
+  }
+  .service-item__block,
+  .service-item {
+    margin: 0 auto;
+  }
   .service-item__large__block img {
     max-width: 264px;
     height: 110px;
@@ -55,6 +69,13 @@
   }
   .section-step__items div {
     margin-bottom: 20px;
+  }
+  .section-step__items {
+    display: inline-block;
+    text-align: center;
+  }
+  .first-block__media {
+    display: none;
   }
   .service-item__block {
     margin: 0 auto;
