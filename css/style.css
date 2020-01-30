@@ -17,6 +17,7 @@ html {
 .header {
   font-family: "Roboto", sans-serif;
   color: #6a6a6a;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
   font-size: 0;
   cursor: pointer;
