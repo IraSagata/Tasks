@@ -1,10 +1,13 @@
 @media (min-width: 320px) and (max-width: 767px) {
+  .logo-media {
+    text-align: center;
+  }
   .site-search {
     justify-content: center;
   }
 
   .first-section-btn {
-    min-width: 290px;
+    min-width: 240px;
   }
   .service-item__large__block img {
     max-width: 264px;
@@ -29,6 +32,15 @@
   .slider-section {
     display: none;
   }
+  .button-box {
+    margin-bottom: 15px;
+  }
+  .last-block {
+    font-size: 6px;
+  }
+  .list-items-footer {
+    font-size: 6px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .site-search {
@@ -43,7 +55,15 @@
   }
   .section-step__items div {
     margin-bottom: 20px;
-    justify-content: space-around;
+  }
+  .service-item__block {
+    margin: 0 auto;
+  }
+  .button-box {
+    margin-bottom: 15px;
+  }
+  .first-section-btn {
+    width: 260px;
   }
 }
 @media (min-width: 1024px) {
